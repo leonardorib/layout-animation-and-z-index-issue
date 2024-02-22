@@ -12,3 +12,11 @@ What I learned on my tests is that you don't even need to be on the same screen 
 2. Toggle the blue View visibility on and off multiple times. It should work consistently and the blue View should be always on top of the red one when visible.
 3. Now press the "Trigger Layout Animation" button.
 4. Try step 2 again by toggling the visbility multiple times. After three or four toggles it's not reliable anymore.
+
+## Expo Snack
+
+This minimal repro has no Expo and it's using the latest Reanimated.
+
+But I also created an Expo snack for convenience: https://snack.expo.dev/@leonardorib/layout-animations-and-zindex-issue-on-android
+
+The snack uses Reanimated 3.6.2, since it's the recommended version for Expo SDK 50.
