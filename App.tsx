@@ -173,6 +173,7 @@ const Button = ({
 }): React.JSX.Element => {
   return (
     <TouchableOpacity
+      activeOpacity={0.7}
       onPress={onPress}
       style={[buttonStyles.touchable, {backgroundColor}, style]}>
       <Text style={buttonStyles.text}>{title}</Text>
@@ -182,9 +183,10 @@ const Button = ({
 
 const buttonStyles = StyleSheet.create({
   touchable: {
-    paddingHorizontal: 12,
+    paddingHorizontal: 24,
     paddingVertical: 8,
-    borderRadius: 8,
+    borderRadius: 16,
+    elevation: 4,
   },
   text: {
     color: 'white',
